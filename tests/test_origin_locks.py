@@ -35,6 +35,12 @@ def test_knn_origin_all_extinct_at_starve() -> None:
     readme = (REPO / "README.md").read_text(encoding="utf-8")
     assert "0 of 3" in readme
     assert "never found the mosquito" in readme
+    assert "blank founders" in readme
+    agents = (REPO / "AGENTS.md").read_text(encoding="utf-8")
+    assert "Do not bolt mosquitoes onto vial_morsus" in agents
+    long_arm = (REPO / "LONG_ARM.md").read_text(encoding="utf-8")
+    assert "new lock" in long_arm
+    assert "Do not average" in long_arm or "do not average" in long_arm.lower()
 
 
 def test_random_origin_all_extinct_at_starve() -> None:

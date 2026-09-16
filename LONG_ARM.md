@@ -10,11 +10,15 @@ state: halt
 next legal node: none
 
 Origin arm finished. 0 of 3 k-NN seeds. All six starve arms extinct at t=5
-with cargo still 200. They never found the mosquito. Fruit-forever stolen
-share 0 at t=400. None lived on hemolymph. None drained cargo. None were
-fallback-dominated.
+with cargo still 200. Founders were fruit flies; find_mosquito and gut_probe
+near zero. Unused cargo is the untrained-founder cliff, not a merge target.
 
 PASS requires >=2 of 3. This is a fail. Do not add mammal bite_weight.
+
+Do not bolt mosquitoes onto vial_morsus `69f4f6d`.
+Do not keep exudate on. Do not start from the last-live cliff corpse.
+A morsus mid-bridge hand-off (living high-n genomes, culex diet, same PASS)
+is a new lock. Do not average it with this blank-founder fail.
 
 A later question is a new repo or a named lock, not a flag pile.
 

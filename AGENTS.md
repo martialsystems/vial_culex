@@ -27,6 +27,10 @@ Claim ban: do not write that we made vampire flies that bite people.
 Allowed claim: flies can or cannot live on stolen mosquito blood meals under a finite cargo supply.
 
 Origin locked: 0 of 3 k-NN seeds. Extinct at t=5 with cargo still 200.
+Blank fruit founders: find_mosquito and gut_probe near zero. Unused cargo is not a bug.
+Do not bolt mosquitoes onto vial_morsus `69f4f6d`.
+Do not copy this origin into a mid-bridge hand-off, and do not average a hand-off with this fail.
+A morsus mid-bridge hand-off is a new lock, not this tree.
 Do not add mammal bite_weight. LONG_ARM.md state is halt. Next legal node is none.
 
 Frozen origin: n=1000, generations=2500, t_starve=5, seeds 1 2 3,
