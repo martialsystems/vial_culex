@@ -2,7 +2,7 @@
 
 Can diploid sponging flies switch from fruit to stealing vertebrate blood already in an engorged mosquito, then find the next mosquito, without evolving a mammal-biting pierce kit?
 
-No. 0 of 3 k-NN seeds. All six starve arms went extinct at t=5, the first generation without fruit. Cargo was still 200. Stolen share 0. Hemolymph share 0. Mammal bite energy 0. Fruit-forever stolen share 0 at t=400. They never found the mosquito.
+No. 0 of 3 k-NN seeds. All six starve arms went extinct at t=5, the first generation without fruit. Cargo was still 200. Stolen share 0. Hemolymph share 0. Mammal bite energy 0. Fruit-forever stolen share 0 at t=400. They never found the mosquito. Science lock `fa819c7`.
 
 The mosquito is the host. Stolen midgut blood and hemolymph are separate liquids. Finite cargo: M0=200 at t_starve, arrivals a0=8 per generation.
 

@@ -16,6 +16,8 @@ def test_readme() -> None:
     assert "What it is not" not in text
     assert "—" not in text
     assert "z_max=3.0" in text
+    assert "fa819c7" in text
+    assert "0 of 3" in text
     assert "M0=200" in text or "m0=200" in text
     assert ".venv/bin/python -m pytest" in text
     assert "12835f747d6360781f3cc7f91f243178" in text
