@@ -28,6 +28,20 @@ None lived on hemolymph. None drained cargo. None were fallback-dominated. PASS 
 
 Halt.
 
+## Methods card
+
+Copied from `METHODS.yaml`.
+
+| Field | Value |
+|-------|-------|
+| Object | unconstrained evolutionary toy |
+| Status | Halt |
+| Falsifier | at least 2 of 3 k-NN seeds find the mosquito and live on stolen midgut blood without a mammal pierce kit |
+| n / seeds | PASS requires at least 2 of 3 k-NN seeds; 0 of 3 is a fail |
+| Science lock | `ddb73a8` |
+| Pre-specified | false |
+
+
 ## How to run
 
 ```text
@@ -44,6 +58,8 @@ python3.12 -m venv .venv
 | Path | Role |
 |------|------|
 | `src/vial_culex/` | config, genome, diet, cargo, fitness, mating, inheritance, population, metrics, cli |
+| `METHODS.yaml` | Methods card |
+| `CITATION.cff` | Citation file; DOI empty until a deposit exists |
 | `AGENTS.md` | Five laws. VBD gate. No GraphForge. |
 | `LONG_ARM.md` | origin fail; next legal node: none |
 | `tests/` | five laws, hemolymph ≠ stolen, cargo, fruit-forever, origin locks |

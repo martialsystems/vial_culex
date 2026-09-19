@@ -1,0 +1,16 @@
+question: Can diploid sponging flies switch from fruit to stealing vertebrate blood already in an engorged mosquito, then find the next mosquito, without evolving a mammal-biting pierce kit?
+falsifier: at least 2 of 3 k-NN seeds find the mosquito and live on stolen midgut blood without a mammal pierce kit
+object: unconstrained evolutionary toy
+status: Halt
+system: fruit founders; M0=200 cargo at t_starve; arrivals a0=8
+data_version: closed-form QTL vial; templates not the stepper
+neuron_table: named types only
+dynamics: closed-form QTL; mosquito kitchen
+rng: numpy.random.default_rng(seed)
+n_seeds: 3
+n_meaning: PASS requires at least 2 of 3 k-NN seeds; 0 of 3 is a fail
+locked_metric: 0 of 3; extinct t=5; cargo still 200; science fa819c7
+pre_specified: false
+science_lock: ddb73a8
+parent_sha: "e2e22b7"
+reduction: they never found the mosquito; unused cargo does not matter
